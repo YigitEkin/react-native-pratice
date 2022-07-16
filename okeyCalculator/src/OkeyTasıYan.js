@@ -1,15 +1,17 @@
 import React from "react";
-import { View, StyleSheet, Button } from "react-native";
+import { View, StyleSheet, Text, Pressable } from "react-native";
 
 const OkeyTasiYan = ({ count, setCount }) => {
   return (
     <View style={styles.container}>
-      <Button
+      <Pressable
         onPress={() => {
           setCount((prev) => prev + count);
         }}
-        title={`${count}`}
-      ></Button>
+        style={styles.button}
+      >
+        <Text style={styles.text}>{`${count}`}</Text>
+      </Pressable>
     </View>
   );
 };
@@ -21,6 +23,12 @@ const styles = StyleSheet.create({
     width: "22%",
     marginBottom: 10,
     backgroundColor: "#fff",
+    borderRadius: 10,
+  },
+  button: {
+    height: 40,
+    justifyContent: "center",
+    alignItems: "center",
     borderRadius: 10,
   },
 });

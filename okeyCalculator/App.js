@@ -21,7 +21,7 @@ export default function App() {
                 fontSize: 20,
               }}
             >
-              Açar Yapıştır
+              Artık Açabilirsin
             </Text>
           ) : (
             <Text
@@ -32,7 +32,7 @@ export default function App() {
                 fontSize: 20,
               }}
             >
-              Nah Açar
+              Az Kaldı Başarabilirsin
             </Text>
           ))}
         <Text style={styles.perEkleTitle}>Per Ekle:</Text>
@@ -56,6 +56,12 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
   title: {
     fontSize: 30,
     fontWeight: "bold",
@@ -90,6 +96,8 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     justifyContent: "space-around",
     marginTop: 50,
+    width: "90%",
+    margin: "auto",
   },
 
   buttonReset: {
