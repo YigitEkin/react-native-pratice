@@ -8,7 +8,7 @@
 <p>a simple tictactoe game implementation</p>
 </li>
 <li>
-<a href="#">Okey Calculator<a/>
+<a href="https://github.com/YigitEkin/react-native-pratice/tree/master/okeyCalculator">Okey Calculator<a/>
 <p>a helper app to calculate the total points collected in an okey game</p>
 </li>
 <ul>
