@@ -4,7 +4,7 @@
 <h1>The projects are the following</h1>
 <ul>
 <li>
-<a href="#">Tic Tac Toe<a/>
+<a href="https://github.com/YigitEkin/react-native-pratice/tree/master/tictactoe">Tic Tac Toe<a/>
 <p>a simple tictactoe game implementation</p>
 </li>
 <li>
