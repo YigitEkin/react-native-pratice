@@ -1,4 +1,5 @@
 # react-native-practice
+
 <p>My personal projects in order to practice react native</p>
 <hr/>
 <h1>The projects are the following</h1>
@@ -14,5 +15,8 @@
  <li>
 <a href="https://github.com/YigitEkin/react-native-pratice/tree/master/timer">Timer<a/>
 <p>a simple timer implementation where the user can stop continue and reset a countdown</p>
+</li>
+<a href="https://github.com/YigitEkin/react-native-pratice/tree/master/timer">TODO List<a/>
+<p>To-do list implementation with both scrollView and flatList components. ToDo items can be added and deleted and also ripple effect implementation is done for delete effect</p>
 </li>
 <ul>
